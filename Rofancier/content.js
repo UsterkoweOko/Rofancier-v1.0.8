@@ -38,19 +38,19 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         elements2[i].innerHTML = elements2[i].innerHTML + '<h2 id="center">All time classic</h2>';
       } 
       if (elements[i].textContent === 'DOORS 👁️' && elements3[i].textContent === 'LSPLASH') {
-        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=ASjhnDz3Wt0&list=PLKV8OkTP6VOKJxj-q8mn9YTA_1R3HhJ18"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center">Game Theory Certified</h3></a>';
+        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=ASjhnDz3Wt0&list=PLKV8OkTP6VOKJxj-q8mn9YTA_1R3HhJ18"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center2">Game Theory Certified</h3></a>';
       } 
       if (elements[i].textContent === 'Rainbow Friends' && elements3[i].textContent === 'Roy & Charcle') {
-        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=U-u3eG2C_FY&list=PLj4NGkwzNxjQgY--ypIH_oKxUX580j4nU"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center">Game Theory Certified</h3></a>';
+        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=U-u3eG2C_FY&list=PLj4NGkwzNxjQgY--ypIH_oKxUX580j4nU"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center2">Game Theory Certified</h3></a>';
       } 
       if (elements[i].textContent === 'Piggy' && elements3[i].textContent === '@MiniToon') {
-        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=2-Mzb3Ag10M&list=PLj4NGkwzNxjQyAKFLft3shXe5-slRr69H"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center">Game Theory Certified</h3></a>';
+        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=2-Mzb3Ag10M&list=PLj4NGkwzNxjQyAKFLft3shXe5-slRr69H"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center2">Game Theory Certified</h3></a>';
       } 
       if (elements[i].textContent === 'Squid Game' && elements3[i].textContent === 'Trendsetter Games') {
-        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=HMcGWCjhN0U&list=PLj4NGkwzNxjR50_Ib9MeVjwDIoyIiMmP7&pp=gAQBiAQB"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center">Game Theory Certified</h3></a>';
+        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=HMcGWCjhN0U&list=PLj4NGkwzNxjR50_Ib9MeVjwDIoyIiMmP7&pp=gAQBiAQB"><img id="gt" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center2">Game Theory Certified</h3></a>';
       } 
       if (elements[i].textContent === '[CHAPTER 2] Apeirophobia' || elements3[i].textContent === 'Polaroid Studios') {
-        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=yxgVelGoK7c&list=PLj4NGkwzNxjSXWXUFECaUDcmQosVih2ad&pp=gAQBiAQB"><img id="gt2" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center">Game Theory Certified</h3></a>';
+        elements2[i].innerHTML = elements2[i].innerHTML + '<a href="https://www.youtube.com/watch?v=yxgVelGoK7c&list=PLj4NGkwzNxjSXWXUFECaUDcmQosVih2ad&pp=gAQBiAQB"><img id="gt2" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/gametheory.png"><h3 id="center2">Game Theory Certified</h3></a>';
       }
       if (elements[i].textContent === 'Murder Mystery 2' && elements3[i].textContent === '@Nikilis') {
         elements2[i].innerHTML = elements2[i].innerHTML + '<h2 id="center">All time classic</h2>';
