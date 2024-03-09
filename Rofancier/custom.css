@@ -479,7 +479,11 @@ body, .content
   }
   #center
   {
-    text-align: right;
+    text-align: center;
+  }
+  #center2
+  {
+    text-align: left;
   }
   #tjat
   {
