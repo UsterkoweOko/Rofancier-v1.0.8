@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Rofancier v1.0.7",
+  "version": "1.0.7",
+  "description": "Rofancier for Roblox.com is an extension that changes the look of the website (BETA)",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaR0ifUtTcwcMyH1LCDyt4pTn5blKwVxqgOPej50geF2qPe2IsxN0eRazQAwiy+C/Hwhrk8s8H9loqr4Ngfy6L0mPXeJULoGteBRv2WpbMrIsdXRIkn7H9su9D6z0XoZgE8pmUx7lvpdCSNq8uBpQgdeB3JyoUw6uFUScFO565NND6NhjuBdrcnWHi7aosFSuXPtyLcsgoqVSWV/LJyfJd3JEAfZDToguGDykfFejJccZHjQyacZIOBWXTJGnpn5gq0b5NnXenvktUyTLmDQpr8exgOPztsk6F0pEFkovM+Pv83ptWJBqmSKkDDX6RliFKAaZKcLQzR4rzzxguzHmQIDAQAB",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webNavigation",
+    "webRequest",
+    "scripting",
+    "changes",
+    "audio"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*","fonts/*"],
+      "matches": ["https://www.roblox.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.roblox.com/*"],
+      "css": ["custom.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

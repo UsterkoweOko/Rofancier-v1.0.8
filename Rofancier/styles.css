@@ -1,0 +1,152 @@
+/* Font Families */
+
+.gotham-font, .gotham-font h1, .gotham-font h2, .gotham-font h3, .gotham-font h4, .gotham-font h5, .gotham-font h6,
+.gotham-font .text, .gotham-font body, .gotham-font button, .gotham-font html, .gotham-font input, .gotham-font pre, .gotham-font select, .gotham-font textarea {
+  font-family: 'Helvetica Rounded', sans-serif !important;
+}
+
+/* Dark Theme Styles */
+.dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img,
+.dark-theme .btn-navigation-nav-robux-md,
+.dark-theme .game-card-container .game-card-thumb-container {
+  background-color: #232527 !important;
+  border-radius: 5px !important;
+}
+
+.dark-theme .btn-navigation-nav-robux-md {
+  border-color: hsla(0, 0%, 100%, 0.7) !important;
+  color: hsla(0, 0%, 100%, 0.7) !important;
+  border-radius: 15px !important;
+}
+
+/* Images */
+img {
+  overflow-clip-margin: content-box !important;
+  overflow: clip !important;
+  border-radius: 25px !important;
+  background-color: #232527 !important;
+}
+
+/* Ad Styles */
+.ad {
+  border-radius: 10px !important;
+}
+
+/* Thumbnails */
+.thumbnail-2d-container img {
+  width: 100% !important;
+  height: 100% !important;
+  transition: opacity 0.5s ease !important;
+  opacity: 1 !important;
+  background-color: #232527 !important;
+  border-radius: 30px !important;
+}
+
+/* Carousel Styles */
+.carousel-item-active {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 5 !important;
+  border-radius: 15px !important;
+}
+
+/* Link Styles */
+a, a:active, a:focus, a:hover, a:link, a:visited {
+  text-decoration: none !important;
+  color: inherit !important;
+  background-color: #232527 !important;
+  border-radius: 15px !important;
+}
+
+/* List Items */
+li {
+  text-align: center !important;
+  border-radius: 25px !important;
+}
+
+/* Item Card Styles */
+.dark-theme .item-card-container .item-card-thumb-container,
+.item-card-thumb-container,
+.item-card-thumb-container .item-card-thumb,
+.item-card-thumb-container div[class^="icon-"],
+.item-card-thumb-container span[class^="icon-"] {
+  border-radius: 50px !important;
+  background-color: #232527 !important;
+}
+
+/* Section Content Styles */
+.section-content.price-volume-charts-container,
+.section-content.AddAComment,
+#item-details-description,
+.row-content.toggle-description.text-link.cursor-pointer {
+  border-radius: 15px !important;
+}
+
+/* Text Styles */
+.text-name {
+  font-size: 12px !important;
+}
+
+.form-control.input-field.rbx-comment-input.blur {
+  font-family: 'Helvetica Rounded', sans-serif !important;
+}
+
+/* Thumbnail Container Styles */
+.thumbnail-2d-container,
+.thumbnail-2d-container.thumbnail-span,
+.thumbnail-holder,
+#nav-shop {
+  background-color: #232527 !important;
+  border-radius: 30px !important;
+}
+
+#nav-shop {
+  width: 155px !important;
+  border-radius: 50px !important;
+}
+
+/* Header Styles */
+.font-header-2.dynamic-ellipsis-item,
+.font-header-2.nav-menu-title.text-header,
+.chat-header,
+.chat-windows-header.dialog-header {
+  font-family: 'Helvetica Rounded', sans-serif !important;
+  color: white !important;
+}
+
+/* Description Styles */
+.age-bracket-label.text-header,
+.profile-avatar-mask {
+  font-family: 'Helvetica Rounded', sans-serif !important;
+}
+
+/* Menu Styles */
+.nav.nav-tabs,
+.menu-option.ng-scope.active,
+.menu-option.ng-scope,
+.transactions-container,
+.section-content.notifications-section,
+#security-page-description,
+.section-content,
+#tab-game-instances,
+.rbx-tab .rbx-tab-heading,
+.stack-row.badge-row.ng-scope {
+  border-radius: 25px !important;
+}
+
+/* Other Styles */
+.abp.other,
+.dark-theme .border,
+.dark-theme .border-bottom,
+.dark-theme .border-left,
+.dark-theme .border-right,
+.dark-theme .border-top,
+body.other a.ad .abp,
+.messages.message-detail.section-content.ng-isolate-scope,
+.border-top.sub-divider-bottom.messageDivider.roblox-message-row.ng-scope.read,
+.messages.message-detail.section-content.ng-isolate-scope,
+.border-top.message-news.sub-divider-bottom.messageDivider.ng-scope.opened,
+.border-top.message-news.sub-divider-bottom.messageDivider.ng-scope,
+.border-top.sub-divider-bottom.messageDivider.roblox-message-row.ng-scope {
+  border-radius: 25px !important;
+}
