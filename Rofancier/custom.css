@@ -477,8 +477,37 @@ body, .content
     background: transparent !important;
     z-index: 99 !important;
   }
-
   #center
   {
-    text-align: center;
+    text-align: right;
+  }
+  #tjat
+  {
+    float: left !important;
+    z-index: 99 !important;
+    font-size: 25px !important;
+  }
+  #gt
+  {
+    margin: 0 !important;
+    position: absolute !important;
+    top: 26.5% !important;
+    left: 17.5% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: transparent !important;
+    z-index: 99 !important;
+  }
+  #gt2
+  {
+    margin: 0 !important;
+    position: absolute !important;
+    top: 38% !important;
+    left: 17.5% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: transparent !important;
+    z-index: 99 !important;
   }
