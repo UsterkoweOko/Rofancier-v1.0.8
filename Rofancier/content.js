@@ -21,6 +21,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     var elements3 = document.getElementsByClassName('text-name text-overflow');
     var elements4 = document.getElementsByClassName('text game-description linkify');
     var elements5 = document.getElementsByClassName("section");
+    
     for (var i = 0; i < elements.length; i++) {
       if (elements[i].textContent === 'BEAR*' || elements[i].textContent === 'BEAR (Alpha)' && elements3[i] === '@Cheedaman') {
         elements2[i].innerHTML = elements2[i].innerHTML + '<h3 id="center">Cheese</h3><img id="bear2" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/Bear.png"><img id="sam" src="chrome-extension://ajigbdppjalhchikakpjhdppflpabckf/images/sam.webp">';
@@ -59,14 +60,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
   }
   modifyHTMLContent2();
-  function startmessage()
-  {
-  var elements = document.getElementById("HomeContainer");
-  console.log("it works");
-  setTimeout(function(){
-    elements.innerHTML = "<div><h1 id='tjat'>Thanks MatPat.</h1></div>" + elements.innerHTML;
-  }, 1500)
-  }
 startmessage();
   function offlineMessages(className) {
     setInterval(function() {
