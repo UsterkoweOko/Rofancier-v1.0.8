@@ -1,22 +1,16 @@
-Rofancier v1.0.7
-Its new and improved!
+Rofancier v1.0.8
+Its has been remade!
 Update Log:
+ 
+-- The font has been changed
 
--- Fixed a lot of bugs
+-- Everything is rounded
 
--- Added support for RoPro's Elements!
+-- The whole extension has been remade
 
--- Added a white border in profile pictures and gamepass pictures!
-
--- Added a few easter eggs 👀
-
--- If a game is an all time classic it says so near the game name!
-
--- Added random messages when people are offline!
-
--- Added a funny message when people are inactive (aka banned)
-
--- and a lot more things that I forgot about
+-- All the easter eggs were untouched (so they are still in the extension)
+ 
+-- A lot of bugs have been fixed
 
 Thanks for using Rofancier!
 
